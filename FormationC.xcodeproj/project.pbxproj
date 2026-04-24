@@ -22,10 +22,28 @@
 		10D502072F96931B008F81DA /* variablees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = variablees; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		10D5021D2F9BA418008F81DA /* Exceptions for "Semaine1" folder in "variablees" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ex02_scanf.c,
+			);
+			target = 10D502062F96931B008F81DA /* variablees */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		10D502092F96931B008F81DA /* variablees */ = {
+		10D502092F96931B008F81DA /* Semaine1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = variablees;
+			exceptions = (
+				10D5021D2F9BA418008F81DA /* Exceptions for "Semaine1" folder in "variablees" target */,
+			);
+			path = Semaine1;
+			sourceTree = "<group>";
+		};
+		10D5021C2F9BA372008F81DA /* Semaine2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Semaine2;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -44,7 +62,8 @@
 		10D501FE2F96931B008F81DA = {
 			isa = PBXGroup;
 			children = (
-				10D502092F96931B008F81DA /* variablees */,
+				10D502092F96931B008F81DA /* Semaine1 */,
+				10D5021C2F9BA372008F81DA /* Semaine2 */,
 				10D502082F96931B008F81DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,7 +92,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				10D502092F96931B008F81DA /* variablees */,
+				10D502092F96931B008F81DA /* Semaine1 */,
+				10D5021C2F9BA372008F81DA /* Semaine2 */,
 			);
 			name = variablees;
 			packageProductDependencies = (
@@ -96,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 10D502022F96931B008F81DA /* Build configuration list for PBXProject "variablees" */;
+			buildConfigurationList = 10D502022F96931B008F81DA /* Build configuration list for PBXProject "FormationC" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -260,7 +280,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10D502022F96931B008F81DA /* Build configuration list for PBXProject "variablees" */ = {
+		10D502022F96931B008F81DA /* Build configuration list for PBXProject "FormationC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				10D5020C2F96931B008F81DA /* Debug */,
