@@ -6,6 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		107D8D9E2FB12159000595B4 /* test1.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8D9B2FB12159000595B4 /* test1.c */; };
+		107D8D9F2FB12159000595B4 /* aire2jeux.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8D9A2FB12159000595B4 /* aire2jeux.c */; };
+		107D8DA02FB12159000595B4 /* test2.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8D9C2FB12159000595B4 /* test2.c */; };
+		107D8DB52FB12199000595B4 /* ex05_verifm2p.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8DB22FB12199000595B4 /* ex05_verifm2p.c */; };
+		107D8DB62FB12199000595B4 /* ex04_menuswitch.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8DB12FB12199000595B4 /* ex04_menuswitch.c */; };
+		107D8DB72FB12199000595B4 /* ex06_PFC.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8DB32FB12199000595B4 /* ex06_PFC.c */; };
+		107D8DB82FB12199000595B4 /* ex01_majeuroumineur.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8DAE2FB12199000595B4 /* ex01_majeuroumineur.c */; };
+		107D8DB92FB12199000595B4 /* ex03_classmtmeteo.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8DB02FB12199000595B4 /* ex03_classmtmeteo.c */; };
+		107D8DBA2FB12199000595B4 /* ex02_mentionscolaire.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8DAF2FB12199000595B4 /* ex02_mentionscolaire.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		10D502052F96931B008F81DA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,25 +31,21 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		107D8D9A2FB12159000595B4 /* aire2jeux.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aire2jeux.c; sourceTree = "<group>"; };
+		107D8D9B2FB12159000595B4 /* test1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test1.c; sourceTree = "<group>"; };
+		107D8D9C2FB12159000595B4 /* test2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test2.c; sourceTree = "<group>"; };
+		107D8DAE2FB12199000595B4 /* ex01_majeuroumineur.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex01_majeuroumineur.c; sourceTree = "<group>"; };
+		107D8DAF2FB12199000595B4 /* ex02_mentionscolaire.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex02_mentionscolaire.c; sourceTree = "<group>"; };
+		107D8DB02FB12199000595B4 /* ex03_classmtmeteo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex03_classmtmeteo.c; sourceTree = "<group>"; };
+		107D8DB12FB12199000595B4 /* ex04_menuswitch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex04_menuswitch.c; sourceTree = "<group>"; };
+		107D8DB22FB12199000595B4 /* ex05_verifm2p.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex05_verifm2p.c; sourceTree = "<group>"; };
+		107D8DB32FB12199000595B4 /* ex06_PFC.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex06_PFC.c; sourceTree = "<group>"; };
 		10D502072F96931B008F81DA /* variablees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = variablees; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		10D5021D2F9BA418008F81DA /* Exceptions for "Semaine1" folder in "variablees" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				ex02_scanf.c,
-			);
-			target = 10D502062F96931B008F81DA /* variablees */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		10D502092F96931B008F81DA /* Semaine1 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				10D5021D2F9BA418008F81DA /* Exceptions for "Semaine1" folder in "variablees" target */,
-			);
 			path = Semaine1;
 			sourceTree = "<group>";
 		};
@@ -59,11 +67,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		107D8D9D2FB12159000595B4 /* Terrain2jeux */ = {
+			isa = PBXGroup;
+			children = (
+				107D8D9A2FB12159000595B4 /* aire2jeux.c */,
+				107D8D9B2FB12159000595B4 /* test1.c */,
+				107D8D9C2FB12159000595B4 /* test2.c */,
+			);
+			path = Terrain2jeux;
+			sourceTree = "<group>";
+		};
+		107D8DB42FB12199000595B4 /* Semaine3 */ = {
+			isa = PBXGroup;
+			children = (
+				107D8DAE2FB12199000595B4 /* ex01_majeuroumineur.c */,
+				107D8DAF2FB12199000595B4 /* ex02_mentionscolaire.c */,
+				107D8DB02FB12199000595B4 /* ex03_classmtmeteo.c */,
+				107D8DB12FB12199000595B4 /* ex04_menuswitch.c */,
+				107D8DB22FB12199000595B4 /* ex05_verifm2p.c */,
+				107D8DB32FB12199000595B4 /* ex06_PFC.c */,
+			);
+			path = Semaine3;
+			sourceTree = "<group>";
+		};
 		10D501FE2F96931B008F81DA = {
 			isa = PBXGroup;
 			children = (
+				107D8D9D2FB12159000595B4 /* Terrain2jeux */,
 				10D502092F96931B008F81DA /* Semaine1 */,
 				10D5021C2F9BA372008F81DA /* Semaine2 */,
+				107D8DB42FB12199000595B4 /* Semaine3 */,
 				10D502082F96931B008F81DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,6 +173,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				107D8D9E2FB12159000595B4 /* test1.c in Sources */,
+				107D8D9F2FB12159000595B4 /* aire2jeux.c in Sources */,
+				107D8DA02FB12159000595B4 /* test2.c in Sources */,
+				107D8DB52FB12199000595B4 /* ex05_verifm2p.c in Sources */,
+				107D8DB62FB12199000595B4 /* ex04_menuswitch.c in Sources */,
+				107D8DB72FB12199000595B4 /* ex06_PFC.c in Sources */,
+				107D8DB82FB12199000595B4 /* ex01_majeuroumineur.c in Sources */,
+				107D8DB92FB12199000595B4 /* ex03_classmtmeteo.c in Sources */,
+				107D8DBA2FB12199000595B4 /* ex02_mentionscolaire.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -273,6 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
