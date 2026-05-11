@@ -6,18 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		107D8D9E2FB12159000595B4 /* test1.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8D9B2FB12159000595B4 /* test1.c */; };
-		107D8D9F2FB12159000595B4 /* aire2jeux.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8D9A2FB12159000595B4 /* aire2jeux.c */; };
-		107D8DA02FB12159000595B4 /* test2.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8D9C2FB12159000595B4 /* test2.c */; };
-		107D8DB52FB12199000595B4 /* ex05_verifm2p.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8DB22FB12199000595B4 /* ex05_verifm2p.c */; };
-		107D8DB62FB12199000595B4 /* ex04_menuswitch.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8DB12FB12199000595B4 /* ex04_menuswitch.c */; };
-		107D8DB72FB12199000595B4 /* ex06_PFC.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8DB32FB12199000595B4 /* ex06_PFC.c */; };
-		107D8DB82FB12199000595B4 /* ex01_majeuroumineur.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8DAE2FB12199000595B4 /* ex01_majeuroumineur.c */; };
-		107D8DB92FB12199000595B4 /* ex03_classmtmeteo.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8DB02FB12199000595B4 /* ex03_classmtmeteo.c */; };
-		107D8DBA2FB12199000595B4 /* ex02_mentionscolaire.c in Sources */ = {isa = PBXBuildFile; fileRef = 107D8DAF2FB12199000595B4 /* ex02_mentionscolaire.c */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		10D502052F96931B008F81DA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -31,6 +19,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		10610B682FB12B6E00F76BEE /* ex01_hello.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex01_hello.c; sourceTree = "<group>"; };
+		10610B692FB12B6E00F76BEE /* ex02_plusimsg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex02_plusimsg.c; sourceTree = "<group>"; };
+		10610B6A2FB12B6E00F76BEE /* ex03_coment.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex03_coment.c; sourceTree = "<group>"; };
+		10610B6B2FB12B6E00F76BEE /* ex04_errvolont.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex04_errvolont.c; sourceTree = "<group>"; };
+		10610B6C2FB12B6E00F76BEE /* ex05_dessinASCII.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex05_dessinASCII.c; sourceTree = "<group>"; };
 		107D8D9A2FB12159000595B4 /* aire2jeux.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aire2jeux.c; sourceTree = "<group>"; };
 		107D8D9B2FB12159000595B4 /* test1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test1.c; sourceTree = "<group>"; };
 		107D8D9C2FB12159000595B4 /* test2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test2.c; sourceTree = "<group>"; };
@@ -43,14 +36,27 @@
 		10D502072F96931B008F81DA /* variablees */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = variablees; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		10D502092F96931B008F81DA /* Semaine1 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Semaine1;
-			sourceTree = "<group>";
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		10610B732FB1353800F76BEE /* Exceptions for "Semaine2" folder in "variablees" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ex02_saisiescanf.c,
+				ex03_divEntvsDeci.c,
+				ex04_calcul4ope.c,
+				ex05_convertcomplet.c,
+				ex06_afficherrecu.c,
+				ex07_IMC.c,
+			);
+			target = 10D502062F96931B008F81DA /* variablees */;
 		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
 		10D5021C2F9BA372008F81DA /* Semaine2 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				10610B732FB1353800F76BEE /* Exceptions for "Semaine2" folder in "variablees" target */,
+			);
 			path = Semaine2;
 			sourceTree = "<group>";
 		};
@@ -67,6 +73,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10610B6D2FB12B6E00F76BEE /* Semaine1  */ = {
+			isa = PBXGroup;
+			children = (
+				10610B682FB12B6E00F76BEE /* ex01_hello.c */,
+				10610B692FB12B6E00F76BEE /* ex02_plusimsg.c */,
+				10610B6A2FB12B6E00F76BEE /* ex03_coment.c */,
+				10610B6B2FB12B6E00F76BEE /* ex04_errvolont.c */,
+				10610B6C2FB12B6E00F76BEE /* ex05_dessinASCII.c */,
+			);
+			path = "Semaine1 ";
+			sourceTree = "<group>";
+		};
 		107D8D9D2FB12159000595B4 /* Terrain2jeux */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				107D8D9D2FB12159000595B4 /* Terrain2jeux */,
-				10D502092F96931B008F81DA /* Semaine1 */,
+				10610B6D2FB12B6E00F76BEE /* Semaine1  */,
 				10D5021C2F9BA372008F81DA /* Semaine2 */,
 				107D8DB42FB12199000595B4 /* Semaine3 */,
 				10D502082F96931B008F81DA /* Products */,
@@ -125,7 +143,6 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				10D502092F96931B008F81DA /* Semaine1 */,
 				10D5021C2F9BA372008F81DA /* Semaine2 */,
 			);
 			name = variablees;
@@ -173,15 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				107D8D9E2FB12159000595B4 /* test1.c in Sources */,
-				107D8D9F2FB12159000595B4 /* aire2jeux.c in Sources */,
-				107D8DA02FB12159000595B4 /* test2.c in Sources */,
-				107D8DB52FB12199000595B4 /* ex05_verifm2p.c in Sources */,
-				107D8DB62FB12199000595B4 /* ex04_menuswitch.c in Sources */,
-				107D8DB72FB12199000595B4 /* ex06_PFC.c in Sources */,
-				107D8DB82FB12199000595B4 /* ex01_majeuroumineur.c in Sources */,
-				107D8DB92FB12199000595B4 /* ex03_classmtmeteo.c in Sources */,
-				107D8DBA2FB12199000595B4 /* ex02_mentionscolaire.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
