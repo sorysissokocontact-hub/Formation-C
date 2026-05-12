@@ -40,12 +40,12 @@
 		10610B732FB1353800F76BEE /* Exceptions for "Semaine2" folder in "variablees" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				ex01_4types.c,
 				ex02_saisiescanf.c,
 				ex03_divEntvsDeci.c,
 				ex04_calcul4ope.c,
 				ex05_convertcomplet.c,
 				ex06_afficherrecu.c,
-				ex07_IMC.c,
 			);
 			target = 10D502062F96931B008F81DA /* variablees */;
 		};
